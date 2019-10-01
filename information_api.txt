@@ -1,0 +1,14 @@
+  adapter          # http client used for performing requests
+  auto_pagination  # false by default, set to true to traverse requests page links
+  oauth_token      # oauth authorization token
+  basic_auth       # login:password string
+  client_id        # oauth client id
+  client_secret    # oauth client secret
+  user             # global user used in requests if none provided
+  repo             # global repository used in requests in none provided
+  org              # global organization used in requests if none provided
+  endpoint         # enterprise API endpoint
+  site             # enterprise API web endpoint
+  ssl              # SSL settings
+  per_page         # number of items per page- max of 100
+  user_agent       # custom user agent name, 'Github API' by default
